@@ -75,3 +75,7 @@ awk '
 ' sorted_by_revenue.txt
 
 
+
+echo -e "\n5. Finding top 10 movies with highest revenue..."
+nl sorted_by_revenue.txt | head | awk -F$'\t' '{ print $1 ". " $3 " \t| Revenue: " $2 }' | column -t -s $'\t'
+

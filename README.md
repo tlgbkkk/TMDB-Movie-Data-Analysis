@@ -52,7 +52,7 @@ The script is designed to be flexible. You can easily change the input and outpu
 | `INPUT_FILE` | `tmdb-movies.csv` | The source dataset file name. |
 | `OUTPUT_DATE` | `sorted_by_date_desc.csv` | Cleaned data sorted by release date. |
 | `OUTPUT_RATING` | `movies_rating_above_75.csv` | Filtered list of top-rated movies. |
-| `OUTPUT_REPORT` | `movies_analysis.txt` | The final summary report and logs. |
+| `OUTPUT_FILE` | `movies_analysis.txt` | The final summary report and logs. |
 
 To use your own file names, simply open the script in any text editor and update these values in the configuration section.
 
